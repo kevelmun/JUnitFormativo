@@ -60,6 +60,8 @@ public class Operations {
                 k = j + 2;
             }
         }
+        
+        
         while (!operatorStack.empty()){ // Append remaining operators
             tempStack.push(operatorStack.pop().toString());
         }
